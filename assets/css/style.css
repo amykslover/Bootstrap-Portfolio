@@ -1,0 +1,149 @@
+
+html, body{
+	height: 100%;
+	font-family: Roboto, Helvetica, Sans Serif;
+	font-size: 20px;
+	background: #E3E3E2;
+	background-image: url("../images/round.png");
+}
+
+#wrapper {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/*.border {
+	border: 1px solid black;
+}*/
+
+/*.marginleft {
+	margin-left: 15px;
+}*/
+
+.left {
+	max-width: 700px;
+	width: 90%;
+	margin: 0 auto 20px auto;
+	padding: 20px;
+	background-color: white;
+	border: solid 0.5px #C1D1DE;
+}
+
+.right {
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto 20px auto;
+	padding: 10px;
+	background-color: white;
+	border: solid 0.5px #C1D1DE;
+}
+
+#icons {
+/*	border: solid 1px black;
+*/	display: flex;
+/*	padding: 0px 20px 0px 20px;
+*/	justify-content: flex-start;
+}
+#icon-1 {
+/*	flex: 1;
+*/}
+#icon-2 {
+/*	flex: 1;
+*/}
+#icon-3 {
+/*	flex: 1;*/
+	margin-top: 4px;
+}
+
+.clear {
+	height: 90px;
+
+}
+
+.placholder {
+	float: left;
+	margin-left: 25px;
+	margin-right: 10px;
+	border: solid 1px grey;
+}
+.portfolio {
+	margin: 5px 25px 0px 25px;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.picturebox {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.picturebox span {
+	position: absolute;
+	width: 275px;
+	bottom: 20px;
+	background: #8C9EAB;
+	height: 40px;
+	text-align: center;
+	color: white;
+	font-size: 90%;
+	padding-top: 10px;
+
+}
+
+.picture {
+	height: 200px;
+	width: 275px;
+	vertical-align: bottom;
+}
+
+input {
+	width: 90%;
+	padding-bottom: 10px;
+}
+
+textarea {
+	width: 90%;
+	height: 120px;
+	border-color: grey;	
+}
+
+#submit {
+	height: 40px;
+	width: 90px;
+	background-color: #8C9EAB;
+	margin: 0px 0px 20px 25px;
+	display: flex;
+}
+
+#submittext{
+	color: white;
+	margin: auto;
+}
+
+form {
+	margin-left: 25px;
+	color: grey;
+	font-weight: lighter;
+
+}
+
+input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+textarea {
+	margin-top: 5px;
+	margin-bottom: 15px;	
+}
+footer {
+  height: 60px;
+  background-color: grey;
+}
